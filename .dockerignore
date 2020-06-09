@@ -1,0 +1,9 @@
+node_modules
+.vscode
+.editorconfig
+.git
+.gitignore
+.eslintrc
+.eslintignore
+.DS_Store
+README.md
