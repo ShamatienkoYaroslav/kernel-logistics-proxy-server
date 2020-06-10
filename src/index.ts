@@ -4,7 +4,6 @@ import * as fastify from "fastify";
 import proxys from "./proxys";
 
 const PORT = Number(process.env.PORT || 8000);
-console.log("process.env.PORT", process.env.PORT);
 
 const server: fastify.FastifyInstance<
   Server,

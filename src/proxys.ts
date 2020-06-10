@@ -7,7 +7,7 @@ const preHandler = (
   reply: FastifyReply<ServerResponse>,
   next: () => void
 ) => {
-  const authKey = request.headers["kernel-auth-key"];
+  const authKey = request.headers["x-kernel-auth-key"];
   if (authKey !== process.env.AUTH_KEY) {
     reply.send({
       error: {
